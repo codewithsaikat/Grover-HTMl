@@ -1,0 +1,102 @@
+@media only screen and (min-width: 1800px) and (max-width: 2000px) {
+    .hero-area .card-1 {
+       
+        right: 598px;      
+    }
+
+    .hero-area .card-2 {
+        right: 145px;
+    }
+
+    .hero-area .abs {
+        right: 350px;
+    }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1800px) {
+    .hero-area .card-1 {
+       
+        right: 559px;       
+    }
+
+    .hero-area .abs {
+        right: 141px;
+    } 
+    .hero-area .card-1 {
+        right: 401px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .hero-area .card-1 {
+        right: 405px;
+    }
+
+    .hero-area .card-2 {
+            right: -48px;
+    }
+    .header-nav .col-md-3 {
+        
+        width: fit-content;
+    }
+}
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .header-nav .col-md-3 {
+        
+        width: auto;
+    }
+    .hero-area .card-1 {
+        position: absolute;
+        top: 441px;
+        right: 0px;
+        z-index: 3;
+    }
+}
+
+
+ /* Tablet Layout: 768px. */
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-nav .col-md-3 {
+        
+        width: auto;
+    }
+
+    .hero-area .card-1 {
+        position: absolute;
+        top: 441px;
+        right: 0px;
+        z-index: 3;
+    }
+
+    .header-nav .form-control {
+        margin-top: 60px;
+    }
+}
+ 
+
+ /* Wide Mobile Layout: 480px. */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .header-nav .form-control {
+        margin-top: 60px;
+    }
+ }
+
+ 
+ /* Mobile Layout: 320px. */
+ @media only screen and (max-width: 767px) {
+    .hero-area .card-1 {
+        position: absolute;
+        top: 384px;
+        right: -79px;
+        z-index: 3;
+    }
+
+    .hero-area .abs {
+        position: absolute;
+        top: 386px;
+        z-index: -1;
+        right: 243px;
+    }
+ }

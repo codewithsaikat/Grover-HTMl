@@ -25,6 +25,7 @@ body {
     }
 }
 
+//  header-area
 .header-nav {
 
     ul {
@@ -61,25 +62,32 @@ body {
     }
 }
 
+//  hero-area
+
 .hero-area {
+padding-bottom: 120px;
     h1 {
         font-size: 74px;
         font-weight: 700;
         line-height: 88px;
+
         span {
             font-weight: 500;
         }
     }
+
     p {
         font-size: 18px;
         font-weight: 400;
         line-height: 30px;
         width: 85%;
     }
+
     .btn {
         font-weight: 500;
         line-height: 1.25;
     }
+
     .btn-lg {
         padding: 1.25rem 2rem;
         font-size: 1.25rem;
@@ -96,11 +104,36 @@ body {
 
     }
 
-   .btn-white {
+    .btn-white {
         background-color: #FFFFFF;
-        color:  #f0ad4e;
+        color: #f0ad4e;
 
-   }
+    }
 
+    .main-img {
+        position: relative;
+        z-index: 2; 
+        image-rendering: pixelated
+    }
+
+    .card-1 {
+        position: absolute;
+        top: 177px;
+        right: 390px; 
+        z-index: 3;     
+    }
+    .card-2 {
+        position: absolute;
+        top: 124px;
+        z-index: 1;
+        right: -100px
+    }
+
+    .abs {
+        position: absolute;
+        top: 386px;
+        z-index: -1;
+        right: 136px;
+    }
 
 }
