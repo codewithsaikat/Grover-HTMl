@@ -65,7 +65,8 @@ body {
 //  hero-area
 
 .hero-area {
-padding-bottom: 120px;
+    padding-bottom: 120px;
+
     h1 {
         font-size: 74px;
         font-weight: 700;
@@ -112,16 +113,17 @@ padding-bottom: 120px;
 
     .main-img {
         position: relative;
-        z-index: 2; 
+        z-index: 2;
         image-rendering: pixelated
     }
 
     .card-1 {
         position: absolute;
         top: 177px;
-        right: 390px; 
-        z-index: 3;     
+        right: 390px;
+        z-index: 3;
     }
+
     .card-2 {
         position: absolute;
         top: 124px;
@@ -136,4 +138,51 @@ padding-bottom: 120px;
         right: 136px;
     }
 
+}
+
+// feature-cards
+.feature-cards {
+    background-color: #FEF5F5;
+    padding: 105px 205px;
+    
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 54px;
+    }
+
+    .card {
+        padding: 50px 0px 17px;
+        border-radius: .75rem;
+        border: none;
+        -webkit-transition: width 2s, -webkit-transform 2s;
+
+        &:hover {
+            -webkit-transform: rotate(-360deg);
+        }
+
+        .card-icon {
+            img {
+                height: 40px;
+            }
+        }
+
+        .card-body {
+            padding-top: 70px;
+
+            .card-title {
+                padding-bottom: 15px;
+                font-weight: 600;
+                line-height: 33px;
+
+            }
+
+            .card-text {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 25px;
+                color: #676767
+            }
+        }
+    }
 }
