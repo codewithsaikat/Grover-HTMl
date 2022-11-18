@@ -2,7 +2,7 @@
 
 body {
     position: relative;
-    line-height: 1.8;
+    // line-height: 1.8;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -11,7 +11,6 @@ body {
 
     a {
         text-decoration: none;
-
     }
 
     a:hover,
@@ -26,7 +25,6 @@ body {
     }
 }
 
-
 .header-nav {
 
     ul {
@@ -34,7 +32,6 @@ body {
             font-size: 16px;
             font-weight: 500;
             line-height: 25px;
-
         }
     }
 
@@ -45,7 +42,6 @@ body {
         background-color: #FFFFFF;
         border: #3C3737;
         height: 55px;
-
 
         .text-area {
             border: none;
@@ -60,14 +56,51 @@ body {
             height: 32px;
             position: absolute;
             left: 80%;
-
             top: 15px;
         }
+    }
+}
 
+.hero-area {
+    h1 {
+        font-size: 74px;
+        font-weight: 700;
+        line-height: 88px;
+        span {
+            font-weight: 500;
+        }
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        width: 85%;
+    }
+    .btn {
+        font-weight: 500;
+        line-height: 1.25;
+    }
+    .btn-lg {
+        padding: 1.25rem 2rem;
+        font-size: 1.25rem;
+        border-radius: 0.8rem;
+    }
 
+    .btn-circle.btn-xl {
+        width: 70px;
+        height: 70px;
+        padding: 10px 16px;
+        border-radius: 35px;
+        font-size: 24px;
+        line-height: 1.33;
 
     }
 
+   .btn-white {
+        background-color: #FFFFFF;
+        color:  #f0ad4e;
+
+   }
 
 
 }

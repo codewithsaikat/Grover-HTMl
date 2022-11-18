@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 body {
   position: relative;
-  line-height: 1.8;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -47,6 +46,42 @@ body textarea:focus {
   position: absolute;
   left: 80%;
   top: 15px;
+}
+
+.hero-area h1 {
+  font-size: 74px;
+  font-weight: 700;
+  line-height: 88px;
+}
+.hero-area h1 span {
+  font-weight: 500;
+}
+.hero-area p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 85%;
+}
+.hero-area .btn {
+  font-weight: 500;
+  line-height: 1.25;
+}
+.hero-area .btn-lg {
+  padding: 1.25rem 2rem;
+  font-size: 1.25rem;
+  border-radius: 0.8rem;
+}
+.hero-area .btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+}
+.hero-area .btn-white {
+  background-color: #FFFFFF;
+  color: #f0ad4e;
 }
 
 /*# sourceMappingURL=style.css.map */
