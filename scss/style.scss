@@ -198,6 +198,8 @@ body {
 .service-area {
 
     padding: 130px 0px 50px;
+    
+    
 
     h5 {
         font-size: 18px;
@@ -221,11 +223,11 @@ body {
         font-size: 18px;
         font-weight: 400;
         line-height: 30px;
-        width: 70%;
+        width: 78%;
     }
 
     .width {
-        width: 93%;
+        width: 81%;
     }
 
     .btn {
@@ -246,16 +248,22 @@ body {
 
     .back-img {
         position: absolute;
-        bottom: 600px;
+        bottom: -16px;
         left: 136px;
         z-index: 1;
+    }
+    .cards {
+        position:absolute;
+        bottom: -217px;
+        right: 312px;
+        z-index: 5
     }
 
 
     .spinner-border {
         &.spin {
             position: absolute;
-            bottom: 653px;
+            bottom: 29px;
             left: 217px;
             height: 430px;
             width: 450;
@@ -274,7 +282,7 @@ body {
     .service-card-2 {
         position: absolute;
         bottom: -121px;
-        right: -161px;
+        right: -222px;
     }
 
     .spinner-border {
@@ -282,7 +290,7 @@ body {
         &.spin-2 {
             position: absolute;
             bottom: 53px;
-            right: 589px;
+            right: 528px;
             height: 35px;
             width: 35px;
             border: 0.50em solid currentColor;

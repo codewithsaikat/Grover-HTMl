@@ -172,10 +172,10 @@ body textarea:focus {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  width: 70%;
+  width: 78%;
 }
 .service-area .width {
-  width: 93%;
+  width: 81%;
 }
 .service-area .btn {
   font-weight: 500;
@@ -192,13 +192,19 @@ body textarea:focus {
 }
 .service-area .back-img {
   position: absolute;
-  bottom: 600px;
+  bottom: -16px;
   left: 136px;
   z-index: 1;
 }
+.service-area .cards {
+  position: absolute;
+  bottom: -217px;
+  right: 312px;
+  z-index: 5;
+}
 .service-area .spinner-border.spin {
   position: absolute;
-  bottom: 653px;
+  bottom: 29px;
   left: 217px;
   height: 430px;
   width: 450;
@@ -213,12 +219,12 @@ body textarea:focus {
 .service-area .service-card-2 {
   position: absolute;
   bottom: -121px;
-  right: -161px;
+  right: -222px;
 }
 .service-area .spinner-border.spin-2 {
   position: absolute;
   bottom: 53px;
-  right: 589px;
+  right: 528px;
   height: 35px;
   width: 35px;
   border: 0.5em solid currentColor;
