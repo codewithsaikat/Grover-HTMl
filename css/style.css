@@ -114,8 +114,8 @@ body textarea:focus {
   background-color: #FEF5F5;
   padding: 105px 205px;
 }
-.feature-cards h1 {
-  font-size: 39px;
+.feature-cards h2 {
+  font-size: 40px;
   font-weight: 700;
   line-height: 54px;
 }
@@ -240,6 +240,7 @@ body textarea:focus {
 .delivery-area {
   padding: 0px 130px;
   padding-top: 200px;
+  margin-bottom: 182px;
 }
 .delivery-area .color {
   color: #F9BA45;
@@ -276,17 +277,75 @@ body textarea:focus {
 }
 .delivery-area .service-card-2 {
   position: absolute;
-  bottom: -189px;
-  right: -113px;
+  bottom: -282px;
+  right: -124px;
 }
 .delivery-area .spinner-border.spin-2 {
   position: absolute;
-  bottom: -30px;
-  right: 624px;
-  height: 35px;
-  width: 35px;
+  bottom: -212px;
+  right: 474px;
+  height: 40px;
+  width: 40px;
   border: 0.5em solid currentColor;
   border-right-color: transparent;
+}
+
+.mobile-area {
+  background-color: #FEF5F5;
+}
+.mobile-area h5 {
+  color: #F54748;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.mobile-area h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54px;
+}
+.mobile-area .d-grid {
+  padding-top: 60px;
+}
+.mobile-area p {
+  line-height: 30px;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.bd-footer {
+  padding: 133px 0px 36px;
+}
+.bd-footer p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.bd-footer h5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.bd-footer li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.bd-footer .thin-line {
+  width: 81em;
+  display: block;
+  height: 0.5px;
+  background-color: #f1f4f5;
+  border: #ECECEC;
+  margin: 60px auto 0;
+}
+.bd-footer .footer-copyright {
+  margin-top: 35px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */
