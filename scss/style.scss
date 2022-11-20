@@ -144,9 +144,10 @@ body {
 .feature-cards {
     background-color: #FEF5F5;
     padding: 105px 205px;
+    
 
     h1 {
-        font-size: 40px;
+        font-size: 39px;
         font-weight: 700;
         line-height: 54px;
     }
@@ -157,16 +158,35 @@ body {
         line-height: 24px;
     }
 
+   .col{
+        position: relative;
+        z-index: 88; 
     .card {
         padding: 50px 0px 17px;
         border-radius: .75rem;
-        border: none;
-        -webkit-transition: width 2s, -webkit-transform 2s;
+        border: none;           
+      
+        &::after {     
+            content: "";
+            position: absolute;
+            height: 108%;
+            width: 100%;
+            border-radius: 0.75rem;
+            visibility: hidden;
+            background-color: rgba(247, 13, 13, 0.568);
+            z-index: 4;
+            transform: rotate(-5deg);
+            top: -6px;
+            left: 22px;            
+            }
 
-        &:hover {
-            -webkit-transform: rotate(-360deg);
-        }
+                
+        &:hover::after {
+           visibility: visible;          
+           z-index: -55;                    
+        }   
 
+        
         .card-icon {
             img {
                 height: 40px;
@@ -187,19 +207,21 @@ body {
                 font-size: 14px;
                 font-weight: 400;
                 line-height: 25px;
-                color: #676767
+                color: #676767;
+                padding-bottom: 15px;
             }
         }
     }
+
+   }
+    
 }
 
 // service -area
 
 .service-area {
 
-    padding: 130px 0px 50px;
-    
-    
+    padding: 400px 0px 200px;
 
     h5 {
         font-size: 18px;
@@ -209,8 +231,8 @@ body {
 
     }
 
-    .color {
-        color: #F9BA45
+    .service-text {
+        padding-left: 45px;
     }
 
     h2 {
@@ -241,59 +263,104 @@ body {
         border-radius: 0.8rem;
     }
 
-    .top-img {
+    .service-img {
         position: relative;
-        z-index: 3;
-    }
-
-    .back-img {
-        position: absolute;
-        bottom: -16px;
-        left: 136px;
-        z-index: 1;
-    }
-    .cards {
-        position:absolute;
-        bottom: -217px;
-        right: 312px;
-        z-index: 5
-    }
-
-
-    .spinner-border {
-        &.spin {
+        .top-img {
             position: absolute;
-            bottom: 29px;
-            left: 217px;
-            height: 430px;
-            width: 450;
-            border: 1em solid currentColor;
-            border-right-color: transparent;
-            z-index: 2;
-            width: 430px;
+            bottom: -220px;
+            left: 195px;
+            z-index: 3;
+
+        }
+        .back-img {
+            position: absolute;
+            bottom: -293px;
+            left: 90px;
+            z-index: 1;
+        }
+        .cards {
+            position: absolute;
+            bottom: -439px;
+            right: -287px;
+            z-index: 5;
         }
 
+        
+        .spinner-border {
+            &.spin {
+                position: absolute;
+                bottom: -241px;
+                left: 174px;
+                height: 430px;
+                width: 450;
+                border: 1em solid currentColor;
+                border-right-color: transparent;
+                z-index: 2;
+                width: 430px;
+            }
+    
+        }
+    }
+}
+
+// delivery-area
+
+.delivery-area {
+    padding: 0px 130px;
+    padding-top: 200px;
+
+
+    .color {
+        color: #F9BA45;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    h2 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 54px;
+    }
+    .btn {
+        font-weight: 500;
+        line-height: 1.25;
     }
 
-    .bottom-img {
+    .btn-lg {
+        padding: 1.25rem 2rem;
+        font-size: 1.25rem;
+        border-radius: 0.8rem;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        width: 85%;
+    }
+    .delivery-img {
         position: relative;
     }
+    .bottom-img {
+        position: absolute;
+        bottom: -210px;
+    }
+    
 
     .service-card-2 {
         position: absolute;
-        bottom: -121px;
-        right: -222px;
+        bottom: -189px;
+        right: -113px;
     }
 
     .spinner-border {
 
         &.spin-2 {
             position: absolute;
-            bottom: 53px;
-            right: 528px;
+            bottom: -30px;
+            right: 624px;
             height: 35px;
             width: 35px;
-            border: 0.50em solid currentColor;
+            border: 0.5em solid currentColor;
             border-right-color: transparent;
         }
 
