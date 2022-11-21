@@ -1,29 +1,29 @@
 @media only screen and (min-width: 1800px) and (max-width: 2000px) {
-    .hero-area .card-1 {
+    /* .hero-area .card-1 {
        
         right: 598px;      
-    }
+    } */
 
     .hero-area .card-2 {
         right: 145px;
     }
 
-    .hero-area .abs {
+    /* .hero-area .abs {
         right: 350px;
-    }
+    } */
 }
 @media only screen and (min-width: 1400px) and (max-width: 1800px) {
-    .hero-area .card-1 {
+    /* .hero-area .card-1 {
        
         right: 559px;       
-    }
+    } */
 
-    .hero-area .abs {
+    /* .hero-area .abs {
         right: 141px;
-    } 
-    .hero-area .card-1 {
+    }  */
+    /* .hero-area .card-1 {
         right: 401px;
-    }
+    } */
 
     .feature-cards h2 {
         font-size: 37px;
@@ -39,9 +39,9 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-    .hero-area .card-1 {
+    /* .hero-area .card-1 {
         right: 405px;
-    }
+    } */
 
     .hero-area .card-2 {
             right: -48px;
@@ -68,12 +68,12 @@
         
         width: auto;
     }
-    .hero-area .card-1 {
+    /* .hero-area .card-1 {
         position: absolute;
         top: 441px;
         right: 0px;
         z-index: 3;
-    }
+    } */
 }
 
 
@@ -118,10 +118,10 @@
         z-index: 3;
     }
 
-    .hero-area .abs {
+    /* .hero-area .abs {
         position: absolute;
         top: 386px;
         z-index: -1;
         right: 243px;
-    }
+    } */
  }

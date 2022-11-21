@@ -43,10 +43,11 @@ body {
         background-color: #FFFFFF;
         border: #3C3737;
         height: 55px;
+        width: 290px;
 
         .text-area {
             border: none;
-            padding: 0px 25px;
+            padding: 0px 12px;
             font-size: 14px;
             font-weight: 500;
             line-height: 16px;
@@ -65,7 +66,17 @@ body {
 //  hero-area
 
 .hero-area {
-    padding-bottom: 120px;
+    margin-top: -27px;
+    padding-bottom: 79px;
+
+    .h1st {
+        margin-bottom: 92px;
+        padding-left: 100px;
+    }
+    
+    .d-grid {
+        padding-top: 45px;
+    }
 
     h1 {
         font-size: 74px;
@@ -115,28 +126,33 @@ body {
         position: relative;
         z-index: 2;    
         image-rendering: pixelated;
+        margin-bottom: -20px;
+        // padding-left: 208px;
+        // height: 422px;
+        // width: 529px;
 
     }
 
     .card-1 {
         position: absolute;
         top: 177px;
-        right: 390px;
+        right: 359px;
         z-index: 3;
+
     }
 
     .card-2 {
         position: absolute;
-        top: 124px;
+        top: 81px;
         z-index: 1;
-        right: -100px
+        right: -170px
     }
 
     .abs {
         position: absolute;
-        top: 386px;
+        top: 352px;
         z-index: -1;
-        right: 136px;
+        right: 73px;
     }
 
 }
@@ -145,12 +161,12 @@ body {
 .feature-cards {
     background-color: #FEF5F5;
     padding: 105px 205px;
-
-
+    
     h2 {
         font-size: 40px;
         font-weight: 700;
         line-height: 54px;
+        margin-bottom: 80px;
     }
 
     h5 {
@@ -234,7 +250,7 @@ body {
     }
 
     .service-text {
-        padding-left: 45px;
+        padding-left: 65px;
     }
 
     h2 {
@@ -382,6 +398,7 @@ body {
 // Mobile -area
 
 .mobile-area {
+    padding: 35px 0px;
     background-color: #FEF5F5;
 
     h5 {
@@ -398,7 +415,7 @@ body {
     }
 
     .d-grid {
-        padding-top: 60px;
+        padding-top: 50px;
 
     }
 
@@ -409,6 +426,23 @@ body {
         font-size: 18px;
         font-weight: 400;
 
+    }
+    .swing {
+        animation: swing ease-in-out 1s infinite alternate;             
+    }
+    .swing img {      
+        display: block;
+    }
+    
+    .swing:before{
+        content: '';
+        position: absolute;      
+        z-index: 5;      
+    }
+     
+    @keyframes swing {
+        0% { transform: rotate(3deg); }
+        100% { transform: rotate(-3deg); }
     }
 
 }
